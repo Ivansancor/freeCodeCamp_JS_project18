@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 2rem 0;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+input {
+    width: 80%;
+    margin: 0 auto 2rem;
+    border: 0.2rem solid blue;
+    font-size: 2rem;
+    padding-left: 1rem;
+    height: 4rem;
+}
+
+button {
+    width: 50%;
+    background-color: blue;
+    color: white;
+    height: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+button:first-of-type {
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    color: blue;
+    background-color: white;
+    border: 0.1rem solid blue;
+    cursor: pointer;
+}
+
+#results-div {
+    margin: 2rem auto 0;
+    padding: 1rem;
+    color: white;
+    width: 50%;
+    overflow-wrap: break-word;
+}
+
+.hidden {
+    display: none;
+}
+
+.success {
+    background-color: green;
+}
+
+.failure {
+    background-color: red;
+}
